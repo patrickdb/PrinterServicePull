@@ -11,11 +11,9 @@ import java.rmi.server.*;
 import java.rmi.registry.*;
 import java.util.Enumeration;
 
-import rmiprinter.IPrinter;
-
 /**
  *
- * @author
+ * @author Patrick de Beer
  */
 
 // Step 1.

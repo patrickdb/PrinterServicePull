@@ -3,22 +3,17 @@
  * and open the template in the editor.
  */
 
-package printclient;
-
 import java.lang.management.ManagementFactory;
 import java.rmi.*;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 import java.util.*;
 import javax.naming.*;
-import rmiprinter.IPrinter;
-
 
 /**
  *
- * @author
+ * @author Patrick de Beer
  */
-
 
 public class Main {
     public static void main(String[] args) {
@@ -34,7 +29,6 @@ public class Main {
 
             //Registry registry = LocateRegistry.getRegistry();
             //System.out.println(registry.toString());
-
 
             Enumeration<NameClassPair> e = namingContext.list(rmi_registry);
             while (e.hasMoreElements()) {

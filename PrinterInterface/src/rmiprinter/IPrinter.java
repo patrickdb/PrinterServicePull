@@ -3,13 +3,11 @@
  * and open the template in the editor.
  */
 
-package rmiprinter;
-
 import java.rmi.*;
 
 /**
  *
- * @author
+ * @author Patrick de Beer
  */
 
 // Step 2
